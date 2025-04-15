@@ -1,0 +1,33 @@
+<html>
+<head>
+<script language="javascript">
+function change(col)
+{
+switch(col)
+{
+case'red':document.bgColor=col ; break;
+case'green':document.bgColor=col ; break;
+case'blue':document.bgColor=col ; break;
+}
+}
+</script>
+</head>
+<body>
+<div class="container">
+  <h2>Select a color:</h2>
+   <form>
+     <label>
+          <h3><input type ="radio" name="c" onClick="change('red')">RED </h3>
+      </label>
+      <br>
+     <label>
+         <h3><input type ="radio" name="c" onClick="change('blue')"> BLUE </h3>
+     </label>
+     <br>
+     <label>
+        <h3><input type ="radio" name="c" onClick="change('green')"> GREEN </h>
+     </label>
+ </form>
+ </div>
+</body>
+</html>
